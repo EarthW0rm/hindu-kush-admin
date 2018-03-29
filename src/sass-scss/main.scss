@@ -1,7 +1,29 @@
 @import '_variables';
+@import '_partials/_header-nav';
 
 body.hindu-app {
 
-    background-color: $main-color;
+    color:   $palettes-color-a;
+    background-color: $palettes-color-a;
+
+    .bloco{
+        background-color: $palettes-color-b;
+
+        h2 {
+            color: $palettes-color-a;
+        }
+    }
+
+    h2 {
+        color: $palettes-color-b;
+    }
+    h3 {
+        color: $palettes-color-c;
+    }
+
+    h4 {
+        color: $palettes-color-d;
+    }
+
 
 }

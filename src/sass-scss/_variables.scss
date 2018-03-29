@@ -1,1 +1,4 @@
-$main-color:red;
+@import '_palette';
+
+$main-color: $palettes-color-a;
+$element-color: $palettes-color-b;
