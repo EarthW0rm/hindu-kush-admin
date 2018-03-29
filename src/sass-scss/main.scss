@@ -3,27 +3,55 @@
 
 body.hindu-app {
 
-    color:   $palettes-color-a;
-    background-color: $palettes-color-a;
+    .bg-a {
+        background-color: $palettes-color-a;
+        h1 { color: $palettes-color-a; }
+        h2 { color: $palettes-color-b; }
+        h3 { color: $palettes-color-c; }
+        h4 { color: $palettes-color-d; }
+        h5 { color: $palettes-color-e; }
+    }
 
-    .bloco{
+    .bg-b {
         background-color: $palettes-color-b;
-
-        h2 {
-            color: $palettes-color-a;
-        }
+        h1 { color: $palettes-color-a; }
+        h2 { color: $palettes-color-b; }
+        h3 { color: $palettes-color-c; }
+        h4 { color: $palettes-color-d; }
+        h5 { color: $palettes-color-e; }
     }
 
-    h2 {
-        color: $palettes-color-b;
-    }
-    h3 {
-        color: $palettes-color-c;
+    .bg-c {
+        background-color: $palettes-color-c;
+        h1 { color: $palettes-color-a; }
+        h2 { color: $palettes-color-b; }
+        h3 { color: $palettes-color-c; }
+        h4 { color: $palettes-color-d; }
+        h5 { color: $palettes-color-e; }
     }
 
-    h4 {
-        color: $palettes-color-d;
+    .bg-d {
+        background-color: $palettes-color-d;
+        h1 { color: $palettes-color-a; }
+        h2 { color: $palettes-color-b; }
+        h3 { color: $palettes-color-c; }
+        h4 { color: $palettes-color-d; }
+        h5 { color: $palettes-color-e; }
     }
+
+    .bg-e {
+        background-color: $palettes-color-e;
+        h1 { color: $palettes-color-a; }
+        h2 { color: $palettes-color-b; }
+        h3 { color: $palettes-color-c; }
+        h4 { color: $palettes-color-d; }
+        h5 { color: $palettes-color-e; }
+    }
+
+
+    color:   $palettes-color-a;
+    background-color: white;
+
 
 
 }
